@@ -1,6 +1,6 @@
 require("dotenv").config();
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-const Web3 = require("web3");
+const { Web3 } = require("web3");
 //updated web3 and hdwallet-provider imports added for convenience
 
 const { interface, bytecode } = require("./compile");
